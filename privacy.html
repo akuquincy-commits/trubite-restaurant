@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy · Trubite Restaurant</title>
+  <meta name="description" content="How Trubite Restaurant handles information when you use our website and WhatsApp ordering." />
+  <link rel="icon" type="image/png" href="images/logo-64.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="/" class="logo" aria-label="Trubite Restaurant home">
+        <img src="images/logo.png" alt="TruBite" class="logo-img" width="44" height="44" />
+        <span class="logo-text">TruBite</span>
+      </a>
+      <nav class="primary-nav" style="display: flex;" aria-label="Primary">
+        <a href="/#menu" class="nav-link">Menu</a>
+        <a href="/privacy.html" class="nav-link">Privacy</a>
+        <a href="/terms.html" class="nav-link">Terms</a>
+      </nav>
+    </div>
+  </header>
+  <main class="section">
+    <div class="container" style="max-width: 40rem;">
+      <h1 class="section__title">Privacy Policy</h1>
+      <p class="section__lead" style="margin-bottom: 1.5rem;">Last updated: 29 October 2026</p>
+
+      <h2 style="font-size: 1.1rem; margin-top: 1.5rem;">Who we are</h2>
+      <p>Trubite Restaurant operates this website for customers in and around Kumasi, Ghana. Contact: Behind Evandy / Ultimate Hostel, Bomso Road, Kumasi. Phone/WhatsApp: as shown on the site.</p>
+
+      <h2 style="font-size: 1.1rem; margin-top: 1.5rem;">What we collect</h2>
+      <ul>
+        <li><strong>On your device only:</strong> your cart contents are stored in the browser (localStorage) so items stay while you browse. We do not receive this data on a server.</li>
+        <li><strong>When you order via WhatsApp:</strong> the name, order type, delivery location, notes, and dish list you enter are put into a WhatsApp message that you send to the restaurant. That conversation is between you and Trubite on WhatsApp (Meta’s service).</li>
+        <li>We do not run user accounts, payment processing, or a backend database on this website.</li>
+      </ul>
+
+      <h2 style="font-size: 1.1rem; margin-top: 1.5rem;">How information is used</h2>
+      <p>Order details are used only to prepare and fulfil your request and to contact you about that order. We do not sell your information.</p>
+
+      <h2 style="font-size: 1.1rem; margin-top: 1.5rem;">Third parties</h2>
+      <p>This site may load a map embed from Google Maps. WhatsApp is operated by Meta. Their privacy policies apply when you use those services.</p>
+
+      <h2 style="font-size: 1.1rem; margin-top: 1.5rem;">Your choices</h2>
+      <p>You can clear site data in your browser settings to remove the saved cart. For questions about an order or your data held by the restaurant, contact Trubite via the phone or WhatsApp number on the website.</p>
+
+      <p style="margin-top: 2rem;"><a class="btn btn--secondary" href="/">← Back to home</a></p>
+    </div>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-bottom" style="border: none;">
+      <p>© <span data-year></span> TruBite Restaurant · <a href="/privacy.html" style="color: inherit;">Privacy</a> · <a href="/terms.html" style="color: inherit;">Terms</a></p>
+    </div>
+  </footer>
+  <script>
+    document.querySelectorAll("[data-year]").forEach(function (el) {
+      el.textContent = String(new Date().getFullYear());
+    });
+  </script>
+</body>
+</html>

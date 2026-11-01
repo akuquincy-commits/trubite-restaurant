@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terms of Use · Trubite Restaurant</title>
+  <meta name="description" content="Terms for using the Trubite Restaurant website and WhatsApp ordering." />
+  <link rel="icon" type="image/png" href="images/logo-64.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="/" class="logo" aria-label="Trubite Restaurant home">
+        <img src="images/logo.png" alt="TruBite" class="logo-img" width="44" height="44" />
+        <span class="logo-text">TruBite</span>
+      </a>
+      <nav class="primary-nav" style="display: flex;" aria-label="Primary">
+        <a href="/#menu" class="nav-link">Menu</a>
+        <a href="/privacy.html" class="nav-link">Privacy</a>
+        <a href="/terms.html" class="nav-link">Terms</a>
+      </nav>
+    </div>
+  </header>
+  <main class="section">
+    <div class="container" style="max-width: 40rem;">
+      <h1 class="section__title">Terms of Use</h1>
+      <p class="section__lead" style="margin-bottom: 1.5rem;">Last updated: 29 October 2026</p>
+
+      <h2 style="font-size: 1.1rem; margin-top: 1.5rem;">Website purpose</h2>
+      <p>This website lets you view Trubite Restaurant’s menu and prepare an order message for WhatsApp. It is an ordering aid, not a payment or automatic confirmation system.</p>
+
+      <h2 style="font-size: 1.1rem; margin-top: 1.5rem;">Orders</h2>
+      <ul>
+        <li>Prices shown are in Ghanaian cedis and may change. The restaurant’s confirmation is final.</li>
+        <li>Sending a WhatsApp message does not guarantee acceptance. Availability, timing, and delivery arrangements are confirmed by Trubite.</li>
+        <li>You are responsible for the accuracy of the name, location, and notes you provide.</li>
+      </ul>
+
+      <h2 style="font-size: 1.1rem; margin-top: 1.5rem;">Menu information</h2>
+      <p>Dishes and prices are published in good faith. If something is unavailable or priced differently, the restaurant will tell you when they respond.</p>
+
+      <h2 style="font-size: 1.1rem; margin-top: 1.5rem;">Acceptable use</h2>
+      <p>Do not misuse the site (e.g. automated abuse, attempts to disrupt service, or false orders). We may refuse service where appropriate.</p>
+
+      <h2 style="font-size: 1.1rem; margin-top: 1.5rem;">Liability</h2>
+      <p>To the extent allowed by Ghanaian law, Trubite is not liable for indirect losses arising from use of this website. Nothing in these terms limits rights you have under applicable consumer law.</p>
+
+      <h2 style="font-size: 1.1rem; margin-top: 1.5rem;">Contact</h2>
+      <p>Trubite Restaurant, Bomso Road (behind Evandy / Ultimate Hostel), Kumasi, Ghana. Use the phone or WhatsApp number on the website for order and service questions.</p>
+
+      <p style="margin-top: 2rem;"><a class="btn btn--secondary" href="/">← Back to home</a></p>
+    </div>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-bottom" style="border: none;">
+      <p>© <span data-year></span> TruBite Restaurant · <a href="/privacy.html" style="color: inherit;">Privacy</a> · <a href="/terms.html" style="color: inherit;">Terms</a></p>
+    </div>
+  </footer>
+  <script>
+    document.querySelectorAll("[data-year]").forEach(function (el) {
+      el.textContent = String(new Date().getFullYear());
+    });
+  </script>
+</body>
+</html>

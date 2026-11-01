@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page not found · Trubite Restaurant</title>
+  <meta name="description" content="This page does not exist on the Trubite Restaurant website." />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/png" href="images/logo-64.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="/" class="logo" aria-label="Trubite Restaurant home">
+        <img src="images/logo.png" alt="TruBite" class="logo-img" width="44" height="44" />
+        <span class="logo-text">TruBite</span>
+      </a>
+    </div>
+  </header>
+  <main class="section" style="min-height: 60vh; display: flex; align-items: center;">
+    <div class="container" style="text-align: center; max-width: 28rem; margin-inline: auto;">
+      <p style="font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-text-muted); margin-bottom: 0.5rem;">404</p>
+      <h1 class="section__title" style="margin-bottom: 0.75rem;">Page not found</h1>
+      <p class="section__lead" style="margin-bottom: 1.5rem;">This link does not lead to a page on our site. Head back to the menu or home.</p>
+      <p style="display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center;">
+        <a class="btn btn--primary" href="/">Home</a>
+        <a class="btn btn--secondary" href="/#menu">View menu</a>
+      </p>
+    </div>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-bottom" style="border: none; padding-top: 0;">
+      <p>© <span data-year></span> TruBite Restaurant · Kumasi</p>
+    </div>
+  </footer>
+  <script>
+    document.querySelectorAll("[data-year]").forEach(function (el) {
+      el.textContent = String(new Date().getFullYear());
+    });
+  </script>
+</body>
+</html>
